@@ -7,8 +7,8 @@ from datetime import datetime
 import boto3
 
 # Constants for your Pi-specific .ppn filename and your valid access key
-WAKE_WORD_PATH = "Yo-Omni_en_linux.ppn"
-PLATFORM_ACCESS_KEY = "femk1BMHW9He3NYmzJVkW9+UxFd92iuKnpV4nywH1CCtWPvP/iVszg=="
+WAKE_WORD_PATH = "Hey-Omni-en-raspi.ppn"
+PLATFORM_ACCESS_KEY = "ZSLJLFCd+I7a0wOPRCRFrsSUNs9ZtEKvdNXtVTIXThBwN0IuelMGTg=="
 
 
 def log_conversation(user_text, assistant_text):

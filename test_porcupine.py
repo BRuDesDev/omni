@@ -9,8 +9,8 @@ def main():
 
     # Creating our custom wake word FOR MAC
     porcupine = pvporcupine.create(
-        access_key="femk1BMHW9He3NYmzJVkW9+UxFd92iuKnpV4nywH1CCtWPvP/iVszg==",
-        keyword_paths=['Yo-Omni_en_linux.ppn']
+        access_key="ZSLJLFCd+I7a0wOPRCRFrsSUNs9ZtEKvdNXtVTIXThBwN0IuelMGTg==",
+        keyword_paths=['Hey-Omni-en-raspi.ppn']
     )
 
     pa = pyaudio.PyAudio()
