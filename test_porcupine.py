@@ -7,18 +7,10 @@ import pvporcupine
 
 def main():
 
-    """
-    Creating our custom wake word FOR RASPI
-    porcupine = pvporcupine.create(
-         access_key="ZSLJLFCd+I7a0wOPRCRFrsSUNs9ZtEKvdNXtVTIXThBwN0IuelMGTg==",
-         keyword_paths=['Yo-Omni_en_mac.ppn']
-     )
-    """
-
     # Creating our custom wake word FOR MAC
     porcupine = pvporcupine.create(
-        access_key="rYuhw+G53e+ddvGxasAFgD+SMl00WMG7LWzLXrODAzSFw2bXJYD0hQ==",
-        keyword_paths=['Yo-Omni_en_mac.ppn']
+        access_key="ZSLJLFCd+I7a0wOPRCRFrsSUNs9ZtEKvdNXtVTIXThBwN0IuelMGTg==",
+        keyword_paths=['Hey-Omni-en-raspi.ppn']
     )
 
     pa = pyaudio.PyAudio()
